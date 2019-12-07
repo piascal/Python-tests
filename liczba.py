@@ -1,12 +1,17 @@
-class Number():
-	def __init__(self, value):
-		self.value = value
-	
-	def wyzeruj():
-		value = 0
+class Number:
+    def __init__(self, value):
+        print('Metoda init wywołana')
+        self.value = value
+    def wyzeruj(self):
+        self.value = 0
+    def ustaw(self, value):
+        self.value = ustaw
 
-	def ustaw(wartosc):
-		value = wartosc
+
+numer = Number(2)
+numer.wyzeruj()
+numer.ustaw(9)
+print(numer.value)
 
 
 

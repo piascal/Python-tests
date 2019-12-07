@@ -1,8 +1,13 @@
-class AbsolutZero:
-	def __init__(self, number):
-		self.number =
+from liczba import Number
 
-	def reklama():
-		print('To jest twoja zacheta do nauki')
+class AbsolutZero(Number):
+    def __init__(self):
+        self_value = 0
+    def __str__(self):
+        return 'Jestem zerem!'
+    
+    def reklama(self):
+        print('Zacheta do nauki')
 
-	
+zero = AbsolutZero
+print(zero)
