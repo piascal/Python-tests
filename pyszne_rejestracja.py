@@ -12,7 +12,7 @@ class test_rejestracji(unittest.TestCase):
 
     def test_zakladanie_konta_valid(self):
         imie = 'Janusz'
-        email = 'piascal@interia.pl'
+        email = 'fikcyjny12@interia.pl'
 
         haslo = 'Czarnykotek234;'
 
