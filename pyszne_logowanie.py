@@ -12,7 +12,7 @@ class test_rejestracji(unittest.TestCase):
 
     def test_zakladanie_konta_valid(self):
         nazwisko = 'Kowalskit'
-        email = 'piotr.fenger@gmx.com'
+        email = 'tomasz.wp12@wp.pl'
 
         haslo = 'Czarnykotek234;'
 
